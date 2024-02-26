@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Berkeley';
+    src: url('http://a11ce.com/fonts/BerkeleyMono.woff') format('woff');
+}
+
+body * {
+    font-family: 'Berkeley', monospace;
+}
