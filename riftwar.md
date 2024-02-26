@@ -4,6 +4,7 @@ pagetitle: RiftWar Rules
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="pastel-accent.js"></script>
 
+<div id="main-div">
 
 # RiftWar
 
@@ -162,3 +163,5 @@ If you have other trait ideas, ask a11ce.
 - 1 Olimar (Medium Ranged, Leader, Indirect)
 - 24 Pikmin (Light Close, Relentless)
 - 2 Bulbmin (Heavy Close, Transport)
+
+</div>
