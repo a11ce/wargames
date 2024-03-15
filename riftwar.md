@@ -10,10 +10,7 @@ pagetitle: RiftWar Rules
 
 Open questions:
 
-- If a large close group charges a ranged group, the engagement is decided by a single reaction fire roll. Is this good?
-- Can reaction fire be coordinated? Should there be some benefit to having a point covered from multiple directions?
 - How does elevation work?
-- How do medium/heavy close units work?
 - All-heavy armies should be possible. Give each unit type a point value.
 
 ## Actions
@@ -60,6 +57,8 @@ If the reacting unit hits a pin or better, the moving unit is stopped. If the re
 
  There is no surprise reaction fire. Players should be aware of reaction fire risks before movement.
 
+Reaction fire can be coordinated. If it is, roll Xd6 equal to the number of reacting units. If reacting to group movement, damage is grouped into pins/wounds/kills by the reacting player and assigned by the moving player.
+
 
 ### Ranged Damage
 
@@ -71,7 +70,7 @@ Close combat begins when the attack unit or group contacts the target. Units may
 
 Ranged units may fire at close combatants as if they are in cover. Indirect fire on close combatants is not allowed.
 
-When engaged in close combat, units always attack collectively. The attacker rolls Xd6 equal to the number of units in combat and hits are assigned,, somehow (??).
+When engaged in close combat, units always attack collectively. The attacker rolls Xd6 equal to the number of units in combat. Damage is grouped into pins/wounds/kills by the attacking player and assigned by the defending player.
 
 ### Hits
 
@@ -126,7 +125,7 @@ Distribute 4 total among your unit types.
 - AP: Attacks ignore armor
 - Armor: Medium only. Takes hits as if heavy.
 - Indirect: Capable of indirect fire
-- Flying: May fly when moving. If flying, ignores terrain and structures, but suffers a wound when pinned and is killed if wounded.
+- Flying: May fly when moving. If flying, ignores terrain and structures, but suffers one extra hit if hit at all.
 
 If you have other trait ideas, ask a11ce.
 
