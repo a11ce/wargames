@@ -5,7 +5,11 @@ pagetitle: TTWG Dictionary
 
 # Dictionary of Tabletop Wargame Design
 
+Tabletop wargames (or miniature wargames, to differentiate from board wargames) are rulesets in which players command units on a battlefield. The units and terrain of the battlefield are represented physically in two or three dimensions, with the physical positioning of units and terrain being relevant to gameplay. Units can represent individual soldiers, vehicles (including in combined arms, or naval/space combat), or squads.  
 
+Common wargame settings include historical or modern conflicts, sci-fi or fantasy, or any combination. Wargames can also be setting-agnostic. Wargames for fictional settings sometimes come with their own story/lore or encourage players to write about their own army. Wargames can also be non-military. There is probably not much room for social roleplaying, but things like sports, racing, or heists could make for plausible rulesets.
+
+This dictionary aims to be reference material and inspiration for indie wargame design. Indie wargames are relatively uncommon (compared to TTRPGs, at least) and there's a lot of potential for some really fun new games. 
 
 ## Turn Structure
 
