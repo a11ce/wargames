@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>RiftWar Rules</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="riftwar.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script src="pastel-accent.js"></script>
+<div id="main-div">
+<h1 id="riftwar">RiftWar</h1>
+<p>Open questions:</p>
+<ul>
+<li>How does elevation work?</li>
+<li>All-heavy armies should be possible. Give each unit type a point value.</li>
+</ul>
+<h2 id="actions">Actions</h2>
+<p>A game consists of phases. Each phase, the active player and inactive player switch. During a phase, the active player takes actions until a failed action causes the phase to end.</p>
+<p>Actions are:</p>
+<ul>
+<li>Move</li>
+<li>Direct Fire</li>
+<li>Indirect Fire</li>
+<li>Rally</li>
+</ul>
+<p>Failed actions are:</p>
+<ul>
+<li>Physical miss (failure to wound or kill) a direct fire target</li>
+<li>If a moving unit is wounded or killed</li>
+<li>Failing to rally (action goes to least recently active player)</li>
+<li>Passing the phase to a chosen player</li>
+</ul>
+<p>For combat-related failures, action goes to the other involved player.</p>
+<h3 id="movement">Movement</h3>
+<p>Movement is in a straight line from point to point.</p>
+<p>Reaction fire must be pointed out by the inactive player before movement and acknowledged by the active player.</p>
+<p>Units may move in close groups. A group is susceptible to reaction fire once. If the group is pinned, all units stop at that point.</p>
+<h3 id="direct-fire">Direct Fire</h3>
+<p>Requires LOS from attacker to target.</p>
+<p>Coordinated fire may be performed by a close group or by any set of units all with LOS to the target and a shared leader. Units attack consecutively within a coordinated attack against a single target. If the target is killed, the attack ends.</p>
+<p>Light units may only coordinate fire with other light units. Medium and Heavy units may coordinate with each other.</p>
+<h3 id="reaction-fire">Reaction Fire</h3>
+<p>When a unit crosses the LOS of an inactive ranged unit, the inactive unit may attack with reaction fire. The inactive player chooses any point along the movement line with LOS to the reacting unit to make the attack. The inactive player may use reaction fire once per movement action.</p>
+<p>If the reacting unit hits a pin or better, the moving unit is stopped. If the reacting unit wounds or kills, the phase ends.</p>
+<p>There is no surprise reaction fire. Players should be aware of reaction fire risks before movement.</p>
+<p>Reaction fire can be coordinated. If it is, roll Xd6 equal to the number of reacting units. If reacting to group movement, damage is grouped into pins/wounds/kills by the reacting player and assigned by the moving player.</p>
+<h3 id="ranged-damage">Ranged Damage</h3>
+<p>When a ranged unit attacks, roll a number of d6. Each 5 or 6 rolled counts as a hit. Light ranged units attack with 3d6 and Medium and Heavy ranged units attack with 4d6. When attacking a heavy unit (unless the attacker has AP) or a unit in cover, one less die is rolled per attack.</p>
+<h3 id="close-combat">Close Combat</h3>
+<p>Close combat begins when the attack unit or group contacts the target. Units may join close combat by moving into it. Any unit trying to escape close combat suffers a 3d6 reaction attack.</p>
+<p>Ranged units may fire at close combatants as if they are in cover. Indirect fire on close combatants is not allowed.</p>
+<p>When engaged in close combat, units always attack collectively. The attacker rolls Xd6 equal to the number of units in combat. Damage is grouped into pins/wounds/kills by the attacking player and assigned by the defending player.</p>
+<h3 id="hits">Hits</h3>
+<p>If a unit is hit twice, it is wounded. Three hits is a kill. Wounding a wounded unit kills it.</p>
+<p>Only in the context of reaction fire, one hit is a pin. Wounded units are also pinned.</p>
+<p>Heavy units can’t be pinned without having been wounded. They also can’t be killed outright; they must be wounded (two or more hits) twice.</p>
+<h3 id="indirect-fire">Indirect Fire</h3>
+<p>Units capable of indirect fire may do so once per phase, and may not otherwise attack during that phase. The must have LOS with an ally with LOS to the target, or with a leader who has LOS to this ally.</p>
+<h3 id="rally">Rally</h3>
+<p>Rallying unpins a unit. To rally, roll a 4 or higher on 1d6. Add +1 if in LOS with a leader (or if a leader is rallying), and an additional +1 if there are no enemies in LOS.</p>
+<h3 id="transports">Transports</h3>
+<p>Units may move in a transport. A transport may carry up to 6 small units, or 1 medium unit and 2 small units. Transported units can’t be targeted. If a transporter is destroyed, the player chooses how to dismount the transported units and each transported unit suffers 3d6 damage.</p>
+<h2 id="map">Map</h2>
+<p>The map contains low structures, high structures, and terrain areas.</p>
+<p>Low structures provide cover but do not break LOS. Moving from low cover to low cover towards an enemy does not trigger reaction fire.</p>
+<p>High structures break LOS. Light ranged units can fire around the corner of high structures (but have cover from return fire). Two light ranged units can stack on a corner.</p>
+<p>Terrain areas are walkable zones such as forests or in-season fields. Light and Medium units may be positioned at the edge, and light units may be positioned fully within a terrain area. Units fully within a terrain area lose LOS across the boundary. Units in either position are in cover.</p>
+<p>Heavy units act as mobile high structures. They may not otherwise take cover. When heavy units are destroyed, they stay as high structure wrecks.</p>
+<p>Something about elevation.</p>
+<h2 id="armies">Armies</h2>
+<h3 id="creation">Creation</h3>
+<p>There is a maximum of 3 medium or heavy units per army. For each number of M/H units below 3, gain 3 extra light unit points.</p>
+<p>Begin with 8 light unit points (plus bonus above). Each one buys either one Light Ranged or 3 Light Close. You may spend 2 points to add an additional trait to a unit type.</p>
+<h3 id="traits">Traits</h3>
+<p>Distribute 4 total among your unit types.</p>
+<ul>
+<li>Leader: Explained above. Maximum 1 per 10 units.</li>
+<li>Transport: Explained above</li>
+<li>Relentless: When moving as a group, pins affect only one unit. If a unit is pinned, the reacting unit may fire again.</li>
+<li>AoE: Attacks have an area of effect</li>
+<li>AP: Attacks ignore armor</li>
+<li>Armor: Medium only. Takes hits as if heavy.</li>
+<li>Indirect: Capable of indirect fire</li>
+<li>Flying: May fly when moving. If flying, ignores terrain and structures, but suffers one extra hit if hit at all.</li>
+</ul>
+<p>If you have other trait ideas, ask a11ce.</p>
+<h2 id="example-armies">Example Armies</h2>
+<h3 id="cold-war">Cold War</h3>
+<ul>
+<li>1 Commander (Light Ranged, Leader)</li>
+<li>2 Transport Helicopter (Heavy Ranged, Transport, Flying)</li>
+<li>1 ATGM (Medium Ranged, AP)</li>
+<li>7 Rifleman (Light Ranged)</li>
+</ul>
+<h3 id="biters">Biters</h3>
+<ul>
+<li>1 Giant Bug (Heavy Close, Transport)</li>
+<li>2 Acid Bugs (Medium Ranged, AoE)</li>
+<li>24 Bugs (Light Close, Relentless)</li>
+</ul>
+<h3 id="legion">Legion</h3>
+<ul>
+<li>2 Leaders (Light Close, Armored, Leader)</li>
+<li>2 Ballistae (Medium Ranged, AP)</li>
+<li>31 Gladiators (Light Close)</li>
+</ul>
+<h3 id="barbie-revolutionary-guard">Barbie Revolutionary Guard</h3>
+<ul>
+<li>1 PMC Barbie (Light Ranged, Leader)</li>
+<li>1 2024 Chevrolet Blazer (Heavy Unarmed, Transport)</li>
+<li>1 Weird Barbie (Light Close, Leader, AP, Transport)</li>
+<li>1 Barbie My First Joint Termial Attack Controller (Light Indirect, AoE)</li>
+<li>6 Generic Barbie (Light Ranged)</li>
+</ul>
+<h3 id="jeanne-darcs-army">Jeanne D’Arc’s Army</h3>
+<ul>
+<li>1 Jeanne D’Arc (Light Close, Leader)</li>
+<li>3 Guardian Angels (Medium Close, Armored, Flying)</li>
+<li>8 Crossbows (Light Ranged, Indirect)</li>
+</ul>
+<h3 id="pikmin">Pikmin</h3>
+<p>Special: Pikmin may make flying moves if close to Olimar.</p>
+<ul>
+<li>1 Olimar (Medium Ranged, Leader)</li>
+<li>24 Pikmin (Light Close, Relentless)</li>
+<li>2 Bulbmin (Heavy Close, Transport)</li>
+</ul>
+</div>
+</body>
+</html>
